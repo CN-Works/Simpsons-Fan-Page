@@ -16,6 +16,29 @@ body {
     margin-left: 20%;
     margin-right: 20%;  
     width: 60%;
-    height: 10%;
+    height: auto;
     border-radius: 0.5%;
+}
+
+#UnderBox {
+    margin-left: 20%;
+    margin-right: 20%; 
+    background-color: rgb(255,255,255);
+}
+
+.SelectionBox {
+    background-color: rgb(25, 167, 206);
+    color: rgb(255,255,255);
+    font-weight : bold;
+    text-decoration : underline;
+}
+
+#TextTitle {
+    text-align: center;
+    color: rgb(231, 177, 10);
+}
+
+#TextSpeech {
+    margin-left: 20%;
+    margin-right: 20%;
 }
