@@ -3,26 +3,31 @@ body {
     background-color: rgb(231, 177, 10);
 }
 
-#MainTitle {
-    height: 50%;
+.MainBlock {
     margin-left: 20%;
-    margin-right: 20%; 
+    margin-right: 20%;
+}
+
+#MainTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+    height: 2em;
     text-align: center;
     color: rgb(255,255,255);
     background-color: rgb(25, 167, 206);
 }
 
 #LargeBanner {
-    margin-left: 20%;
-    margin-right: 20%;  
-    width: 60%;
-    height: auto;
-    border-radius: 0.5%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 25em;
 }
 
 .UnderBox {
-    margin-left: 20%;
-    margin-right: 20%; 
     background-color: rgb(255,255,255);
 }
 
@@ -47,8 +52,6 @@ body {
 }
 
 #TextSpeech {
-    margin-left: 20%;
-    margin-right: 20%;
     margin-bottom: 5%;
 }
 
@@ -63,8 +66,6 @@ body {
 
 #TextAuthorSpeech {
     color: rgb(255,255,255);
-    margin-left: 20%;
-    margin-right: 20%;
 }
 
 footer {
