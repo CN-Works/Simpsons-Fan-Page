@@ -20,17 +20,24 @@ body {
     border-radius: 0.5%;
 }
 
-#UnderBox {
+.UnderBox {
     margin-left: 20%;
     margin-right: 20%; 
     background-color: rgb(255,255,255);
 }
 
-.SelectionBox {
+.SelectionSection {
+    text-align: left;
+    margin-left: 3%;
+    margin-right: 80%;
+    text-align: justify;
     background-color: rgb(25, 167, 206);
     color: rgb(255,255,255);
     font-weight : bold;
     text-decoration : underline;
+}
+
+.MainSection {
 }
 
 #TextTitle {
@@ -42,4 +49,29 @@ body {
 #TextSpeech {
     margin-left: 20%;
     margin-right: 20%;
+    margin-bottom: 5%;
+}
+
+.AuthorSection {
+    background-color: rgb(25, 167, 206);
+}
+
+#TextAuthorTitle {
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+#TextAuthorSpeech {
+    color: rgb(255,255,255);
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.FooterCopyright {
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgb(20, 108, 148);
+    color: rgb(255,255,255);
+    text-align: center;
+    font-weight : bold;
 }
