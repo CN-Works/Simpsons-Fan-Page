@@ -34,6 +34,7 @@ body {
 }
 
 #TextTitle {
+    font-weight : bold;
     text-align: center;
     color: rgb(231, 177, 10);
 }
