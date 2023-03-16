@@ -1,12 +1,16 @@
+/* Base et font */
 * {
     font-family: "Poppins", sans-serif;
 }
 
+/* Background et Côtés */
 .container {
     margin-left: 20%;
     margin-right: 20%;
     background-color: rgb(231, 177, 10);
 }
+
+/* Titre et image de la famille */
 
 #upperTitle {
     color: rgb(255,255,255);
@@ -19,6 +23,7 @@
     height: 25em;
 }
 
+/* Bas de page et mention légales */
 footer {
     margin-left: 20%;
     margin-right: 20%;
