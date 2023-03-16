@@ -59,6 +59,10 @@
     list-style: none;
 }
 
+li{
+    padding: 5px 0;
+}
+
 /* Article Principale */
 
 .articleSimpsons {
@@ -125,10 +129,10 @@ footer {
     font-weight : bold;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 800px) {
     .container {
       background-color: lightblue;
-      padding : 0 0%;
+      padding : 0 0;
     }
 
     .centralBlock {
@@ -136,11 +140,47 @@ footer {
         flex-direction: column;
     }
 
+    /* Navigation Bars */
+
     .selectionButtons {
         width: 100%;
         margin-left: 0;
         margin-right: 0;
         margin-top: 0;
         vertical-align: top;
+        padding: 15px 0;
+    }
+
+    /* Article */
+
+    #articleName {
+        margin-top: 4%;
+    }
+
+    #articleText {
+        margin-bottom: 4%;
+    }
+
+    /* Article Matt */
+
+    .mattInfo {
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    #mattImage {
+        width: 30%;
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+
+    #mattText {
+        font-size: 1.1em;
+    }
+
+    /* Footer */
+
+    footer {
+        text-align: center;
     }
   }
