@@ -9,6 +9,7 @@
 
 .container {
     padding : 0 17%;
+    height: 100%;
     background-color: rgb(231, 177, 10);
 }
 
@@ -32,15 +33,16 @@
 /* Bloc Central */
 
 .centralBlock {
-    display: flexbox;
-    align-items: center;
+    display: flex;
+    justify-content: center;
     background-color: rgb(255, 255, 255);
 }
 
 /* Menu Sélection */
 
 .selectionButtons {
-    width: 15%;
+    align: center;
+    padding: 0.5em;
     height: 40%;
     background-color: rgb(25, 167, 206);
     color: rgb(255,255,255);
@@ -49,6 +51,8 @@
 }
 
 #listItems {
+    display: flex;
+    flex-direction: column;
     list-style: none;
 }
 
@@ -56,11 +60,18 @@
 
 
 #articleName {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
     color: rgb(231, 177, 10);
     font-weight : bold;
+    font-size: 2em;
 }
 
 #articleText {
+    padding-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
     font-size: 1em;
 }
 
@@ -70,19 +81,32 @@
     background-color: rgb(25, 167, 206);
     color: rgb(255,255,255);
 }
-
 #mattName {
     font-weight : bold;
+    text-align: center;
 }
 
 #mattImage {
-    width: 15%;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
     height: 8em;
+}
+
+#mattText {
+    padding-top: 3%;
+    padding-bottom: 4%;
+    font-size: 0.9em;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 
 /* Bas de page et mention légales */
 footer {
+    height: 1.8em;
+    width: 100%;
     background-color: rgb(58, 16, 120);
     color: rgb(255,255,255);
     text-align: center;
