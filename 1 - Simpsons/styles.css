@@ -1,88 +1,113 @@
-body {
+/* Base et font */
+* {
     font-family: "Poppins", sans-serif;
+    padding : 0;
+    margin : 0;
+    vertical-align: top;
+}
+
+/* Container et Centrage */
+
+.container {
+    padding : 0 17%;
+    height: 100%;
     background-color: rgb(231, 177, 10);
 }
 
-.MainBlock {
-    margin-left: 20%;
-    margin-right: 20%;
-}
 
-#MainTitle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50%;
-    width: 100%;
-    text-align: center;
+
+/* Titre et image de la famille */
+
+#upperTitle {
     color: rgb(255,255,255);
     background-color: rgb(25, 167, 206);
+    text-align: center;
 }
 
-#LargeBanner {
+#upperImage {
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+}
+
+/* Bloc Central */
+
+.centralBlock {
     display: flex;
     justify-content: center;
-    width: 100%;
-    height: 25em;
+    background-color: rgb(255, 255, 255);
 }
 
-.UnderBox {
-    background-color: rgb(255,255,255);
-}
+/* Menu Sélection */
 
-.SelectionSection {
-    text-align: left;
-    margin-left: 3%;
-    margin-right: 80%;
-    text-align: justify;
+.selectionButtons {
+    text-align: center;
+    padding: 1em;
+    height: 40%;
     background-color: rgb(25, 167, 206);
     color: rgb(255,255,255);
     font-weight : bold;
     text-decoration : underline;
 }
 
-.MainSection {
+#listItems {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
 }
 
-#TextTitle {
+/* Article Principale */
+
+
+#articleName {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: rgb(231, 177, 10);
+    font-weight : bold;
+    font-size: 2em;
+}
+
+#articleText {
+    padding-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1em;
+}
+
+/* Article Matt */
+
+.mattInfo {
+    background-color: rgb(25, 167, 206);
+    color: rgb(255,255,255);
+}
+#mattName {
     font-weight : bold;
     text-align: center;
-    color: rgb(231, 177, 10);
 }
 
-#TextSpeech {
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 5%;
+#mattImage {
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
 }
 
-.AuthorSection {
-    display: flex;
-    justify-content: flex-end;
-    align-items: column;
-    background-color: rgb(25, 167, 206);
-}
-
-#ImageAuthor {
-    width: 10%;
-    height: 10em;
-}
-
-#TextAuthorTitle {
-    color: rgb(255,255,255);
+#mattText {
     text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-size: 0.85em;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
-#TextAuthorSpeech {
-    margin-left: 20%;
-    margin-right: 20%;
-    color: rgb(255,255,255);
-}
 
+/* Bas de page et mention légales */
 footer {
-    margin-left: 20%;
-    margin-right: 20%;
-    background-color: rgb(20, 108, 148);
+    height: 1.8em;
+    width: 100%;
+    background-color: rgb(58, 16, 120);
     color: rgb(255,255,255);
     text-align: center;
     font-weight : bold;
