@@ -42,7 +42,7 @@
 
 .selectionButtons {
     align: center;
-    padding: 0.5em;
+    padding: 1em;
     height: 40%;
     background-color: rgb(25, 167, 206);
     color: rgb(255,255,255);
@@ -95,9 +95,10 @@
 }
 
 #mattText {
-    padding-top: 3%;
+    text-align: center;
+    padding-top: 4%;
     padding-bottom: 4%;
-    font-size: 0.9em;
+    font-size: 0.85em;
     margin-left: 5%;
     margin-right: 5%;
 }
