@@ -8,7 +8,7 @@
 /* Container et Centrage */
 
 .container {
-    padding : 0 15%;
+    padding : 0 17%;
     background-color: rgb(231, 177, 10);
 }
 
@@ -26,22 +26,30 @@
     margin-left: 0%;
     margin-right: 0%;
     width: 100%;
-    height: 25em;
+    height: 20em;
 }
 
 /* Bloc Central */
 
 .centralBlock {
+    display: flexbox;
+    align-items: center;
     background-color: rgb(255, 255, 255);
 }
 
 /* Menu Sélection */
 
 .selectionButtons {
+    width: 15%;
+    height: 40%;
     background-color: rgb(25, 167, 206);
     color: rgb(255,255,255);
     font-weight : bold;
     text-decoration : underline;
+}
+
+#listItems {
+    list-style: none;
 }
 
 /* Article Principale */
