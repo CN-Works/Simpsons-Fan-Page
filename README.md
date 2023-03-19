@@ -8,5 +8,5 @@
 
 ## Preview
 <br>
-![image](https://user-images.githubusercontent.com/92865037/226195005-71408b82-52d2-43d5-bd78-35db04c589d2.png)
+https://user-images.githubusercontent.com/92865037/226195005-71408b82-52d2-43d5-bd78-35db04c589d2.png
 
