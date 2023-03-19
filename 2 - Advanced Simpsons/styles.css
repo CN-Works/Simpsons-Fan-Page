@@ -142,11 +142,17 @@ li{
     user-select: none; 
 }
 
+#mattName {
+    margin-top: 3.5%;
+    margin-bottom: 3.5%;
+    font-size: 1.5em;
+}
+
 #mattText {
     text-align: justify;
-    padding-top: 4%;
-    padding-bottom: 4%;
-    font-size: 0.85em;
+    margin-top: 5%%;
+    margin-bottom: 5%;
+    font-size: 1em;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -204,10 +210,6 @@ footer {
         width: 30%;
         margin-left: 35%;
         margin-right: 35%;
-    }
-
-    #mattText {
-        font-size: 1.1em;
     }
 
     /* Footer */
