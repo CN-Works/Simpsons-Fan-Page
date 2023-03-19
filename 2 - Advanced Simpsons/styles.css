@@ -112,6 +112,10 @@ li{
     width: 80%;
     border-style: solid;
     border-color: rgb(95, 95, 95);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none; 
 }
 
 /* Article Matt */
