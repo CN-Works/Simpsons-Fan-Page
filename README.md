@@ -2,7 +2,7 @@
 </div>
 <br>
 
-**A simple Simpsons fan page made for school**
+**A cool Simpsons fan page, works on desktop and mobile !**
 
 
 
