@@ -5,7 +5,7 @@
 **A cool Simpsons fan page, works on desktop and mobile !**
 
 
-<div align='left'><a href="https://chernyyworks.github.io/Simpsons-Fan-Page/">Live Preview.</a>
+<div align='left'><a href="https://chernyyworks.github.io/Simpsons-Fan-Page/">Live Preview</a>
 </div>
 
 ## Preview :
