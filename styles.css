@@ -200,6 +200,12 @@ footer {
         padding: 15px 0;
     }
 
+    /* Simpsons */
+    .simpsonsPart {
+        margin: 0;
+        padding: 0;
+    }
+
     /* Article */
 
     #articleName {
@@ -210,11 +216,24 @@ footer {
         margin-bottom: 4%;
     }
 
+    /* Movie */
+
     .moviePart {
         margin: 0;
         padding: 0;
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .movieFigure {
+        display: flex;
+        justify-content: center;
+    }
+
+    .moviePicture {
+        margin: 4% 0 4% 0;
+        width: 50%;
     }
 
     /* Article Matt */
