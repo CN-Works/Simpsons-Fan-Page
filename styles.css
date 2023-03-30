@@ -177,11 +177,12 @@ li{
 
 /* Bas de page et mention légales */
 footer {
-    height: 1.8em;
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.5em;
     background-color: rgb(58, 16, 120);
     color: rgb(255,255,255);
-    text-align: center;
     font-weight : bold;
 }
 
@@ -266,6 +267,5 @@ footer {
     /* Footer */
 
     footer {
-        text-align: center;
     }
   }
